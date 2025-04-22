@@ -1,8 +1,13 @@
 import React from 'react'
 
-const Comp1 = () => {
+const Comp1 = ({count, onclickHandler}) => {
+    const IncreaseHandler = () => onclickHandler();
+
   return (
-    <div>Comp1</div>
+    <div>
+        <p> {count} </p>
+        <button onClick={IncreaseHandler}>Increase</button>
+    </div>
   )
 }
 
