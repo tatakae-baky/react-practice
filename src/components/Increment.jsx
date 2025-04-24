@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Comp1 = ({count, onclickHandler}) => {
+const Increment = ({count, onclickHandler}) => {
     const IncreaseHandler = () => onclickHandler();
 
   return (
