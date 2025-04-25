@@ -2,6 +2,7 @@
 // import Increment from "./components/Increment";
 import ConditionalRendering from "./components/ConditionalRendering";
 import Json from "./components/Json";
+import Form from "./Form";
 
 function App() {
   // const tasks = [
@@ -34,7 +35,9 @@ function App() {
 
   return (
     <>
-    <Json/>
+    <Form/>
+
+    {/* <Json/> */}
 
 
       {/* <ConditionalRendering tasks={tasks}/> */}
