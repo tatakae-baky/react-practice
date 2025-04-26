@@ -2,7 +2,7 @@
 // import Increment from "./components/Increment";
 import ConditionalRendering from "./components/ConditionalRendering";
 import Json from "./components/Json";
-import Form from "./Form";
+import Form from "./components/Form";
 
 function App() {
   // const tasks = [
@@ -11,12 +11,7 @@ function App() {
   //   { task: "Learn Hooks", isDone: true },
   // ];
 
-
-
   // const [count, setCount] = useState(0)
-
-
-
 
   // const [movie, setMovie] = useState([
   //   { name: "Acquaman", ratings: 6.5 },
@@ -31,17 +26,13 @@ function App() {
   //   setMovie([...movie, {name: "Superman", ratings: 7.8}])
   // }
 
-
-
   return (
     <>
-    <Form/>
+      {/* <Form/> */}
 
-    {/* <Json/> */}
-
+      {/* <Json/> */}
 
       {/* <ConditionalRendering tasks={tasks}/> */}
-
 
       {/* { movie.map (m => (
       <ul key={Math.random()}>
@@ -54,7 +45,7 @@ function App() {
 
 
 
-      <Increment count = {count} onclickHandler={() => setCount(count + 1)} /> */}
+    <Increment count = {count} onclickHandler={() => setCount(count + 1)} /> */}
     </>
   );
 }
